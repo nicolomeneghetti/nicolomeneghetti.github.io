@@ -1,0 +1,49 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 600px;
+    margin: 0 auto;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 50px 0 60px 0;
+}
+.links a{
+    text-decoration: none;
+    color: green
+}
+.links a:hover{
+    scale: 120%;
+}
+.point{
+    height: 8px;
+    width: 8px;
+    background-color: green;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
+#google-scholar-link{
+    color: rgb(94, 198, 233);
+}
+.publication-wrapper{
+    margin-top: 50px
+}
+.title{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.authors,
+.journal{
+    color: rgb(124, 122, 122)
+}
+.journal{
+    font-style: italic;
+    margin-top: 20px
+}
