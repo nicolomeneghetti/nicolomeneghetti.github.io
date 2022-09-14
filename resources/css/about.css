@@ -1,0 +1,40 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 600px;
+    margin: 0 auto;
+}
+h4{
+    margin-top: 30px;
+    font-size: 23px;
+}
+
+.links a{
+    text-decoration: none;
+    color: green
+}
+.doi-links,
+.doi-links:visited{
+    color: rgb(94, 198, 233);
+}
+#photo-wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#photo-index{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px
+}
+.point{
+    height: 8px;
+    width: 8px;
+    background-color: green;
+    border-radius: 50%;
+}
+ body p:last-child{
+   margin-bottom: 40px
+ }
