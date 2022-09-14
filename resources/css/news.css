@@ -1,0 +1,77 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.riga_news{
+  display:flex;
+  align-items: center;
+  margin-bottom: 30px
+}
+.contenuto_news{
+  margin-left: 20px
+}
+
+.contenuto_news span{
+  font-weight:bold;
+}
+#paper_out{
+  text-decoration: underline;
+  color: rgb(0,0,0)
+}
+.doi-links,
+.doi-links:visited{
+    color: rgb(94, 198, 233);
+}
+
+
+.anni{
+  display:flex;
+  height: 28px;
+  width: 75px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+
+}
+.anni span{
+  font-size: 12px;
+  font-weight:bold;
+  color: rgb(255,255,255)
+}
+
+
+.anno_2016{
+  background-color: rgb(89, 111, 241);
+}
+.anno_2018{
+  background-color: rgb(75, 97, 228);
+}
+.anno_2019{
+  background-color: rgb(63, 85, 219);
+}
+.anno_2020{
+  background-color: rgb(50, 72, 207);
+}
+.anno_2021{
+  background-color: rgb(33, 56, 198);
+}
+.anno_2022{
+  background-color: rgb(48,57,189);
+}
+
+
+
+@media only screen and (max-width: 576px) {
+
+  *{
+      font-size: 15px;
+  }
+  h1{
+    font-size: 28px; 
+  }
+
+}
