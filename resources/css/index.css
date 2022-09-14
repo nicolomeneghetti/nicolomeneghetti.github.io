@@ -1,0 +1,82 @@
+
+a{
+    text-decoration: none;
+}
+#name{
+  font-size: 40px !important;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0 300px 0 300px; */
+}
+.links{
+    margin: 50px 0 20px 0 !important; 
+}
+
+
+.upper-content{
+    flex-direction: column;
+    align-items: center;
+}
+.main-content #photo-index{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.main-content #personal-info,
+#download_cv{
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+}
+#personal-info{
+  margin-bottom: 5px
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#final-content{
+    margin-top: 5px;
+    font-size: 18px
+}
+
+#google-scholar{
+    width: 32px
+}
+h1{
+    margin: 20px 0 10px 0
+}
+.personal-info-links,
+.personal-info-links:visited,
+#download_cv,
+#download_cv:visited{
+    color: rgb(94, 198, 233);
+}
+
+#cv_wrapper{
+  display:flex;
+  align-items: center;
+  border: 1px solid rgb(94, 198, 233);
+  padding: 0 10px 0 0;
+  border-radius: 5px;
+  margin-top: 15px
+}
+#cv_wrapper:hover{
+  border: 1px solid rgb(94, 198, 233);
+  background-color: rgb(94, 198, 233);
+  color: #fff;
+}
+#cv_wrapper:hover a{
+  color: #fff;
+}
+#cv_wrapper a{
+  margin-left: 10px;
+  font-size: 15px
+}
