@@ -23,6 +23,9 @@ a{
 #google-scholar-link{
     color: rgb(94, 198, 233);
 }
+#google-scholar{
+    width: 32px
+}
 .publication-wrapper{
     margin-bottom: 50px
 }
